@@ -31,10 +31,20 @@ public class Aniversariante {
 		this.dataAniversario = dataAniversario;
 	}
 
-	public boolean equals(Aniversariante aniversariante){
-		if (this.nome == aniversariante.getNome() && this.dataAniversario == getDataAniversario()){
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) {
 			return true;
 		}
-		return false;
+		if (!(obj instanceof Aniversariante)) {
+			return false;
+		}
+		Aniversariante outro = (Aniversariante) obj;
+		return this.nome.equals(outro.nome) && this.dataAniversario.equals(outro.dataAniversario);
+	}
+
+	@Override
+	public String toString() {
+		return this.nome + " - " + this.dataAniversario;
 	}
 }

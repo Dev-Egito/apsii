@@ -1,4 +1,4 @@
-package org.example;
+package Aplication;
 
 public class CD extends Produto implements InfoGeriais{
     private Integer numFaixas;

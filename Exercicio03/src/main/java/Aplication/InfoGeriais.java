@@ -1,4 +1,4 @@
-package org.example;
+package Aplication;
 
 public interface InfoGeriais {
     String exibirInformacoes();

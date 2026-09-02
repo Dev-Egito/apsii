@@ -8,14 +8,14 @@
         <option value="$PROJECT_DIR$/Exemplo03/pom.xml" />
         <option value="$PROJECT_DIR$/Exercicio02/pom.xml" />
         <option value="$PROJECT_DIR$/Exercicio03/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercicio04/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/Exercicio03/pom.xml" />
+        <option value="$PROJECT_DIR$/Exemplo03/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="26" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
